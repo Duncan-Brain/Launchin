@@ -4,13 +4,24 @@ using UnityEngine;
 
 public class moveRocket : MonoBehaviour {
 
-	// Use this for initialization
+    private bool started = false;
+    private float velocity = 0f;
 
 	void Start () {
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position += transform.up * Time.deltaTime;
+        if (GvrControllerInput.ClickButtonDown) { // deprecated but i dgaf
+            started = true;
+        }
+
+        if (!started) {
+            return;
+        }
+
+        velocity += Time.deltaTime * 2;
+
+        transform.position += transform.up * velocity * Time.deltaTime;
 	}
 }
