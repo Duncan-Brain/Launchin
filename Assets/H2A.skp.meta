@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 065755b626dc9f84e916d0f952f5a673
+timeCreated: 1540043286
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000010000000200000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 2ce6e970bdf8e4ad22fad42e977e7bc0
+  longitude: 130.977596060716
+  latitude: 30.4008794007444
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 37.599377, y: 246.83472, z: 42.542282}
+      lookAt: {x: 0.19694704, y: 228.55632, z: -1.0316373}
+      up: {x: -0.7105388, y: 0.6075048, z: 0.3550669}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes:
+    - camera:
+        position: {x: 7.148532, y: 4.3973503, z: -6.4622774}
+        lookAt: {x: -5.3273473, y: -2.0623505, z: 13.657502}
+        up: {x: -0.13872364, y: 0.9647309, z: 0.22371882}
+        fov: 35
+        aspectRatio: 0
+        orthoSize: 1
+        isPerspective: 1
+      name: Home
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Component#11
+    100002: Component#13
+    100004: Component#13 1
+    100006: Component#16
+    100008: Component#16 1
+    100010: Component#17
+    100012: Component#17 1
+    100014: Component#18
+    100016: Component#18 1
+    100018: Component#22
+    100020: Component#22 1
+    100022: Component#22 2
+    100024: Component#22 3
+    100026: Component#30
+    100028: Component#30 1
+    100030: Component#31
+    100032: Component#32
+    100034: Component#33
+    100036: Component#34
+    100038: Google Earth Terrain
+    100040: //RootNode
+    400000: Component#11
+    400002: Component#13
+    400004: Component#13 1
+    400006: Component#16
+    400008: Component#16 1
+    400010: Component#17
+    400012: Component#17 1
+    400014: Component#18
+    400016: Component#18 1
+    400018: Component#22
+    400020: Component#22 1
+    400022: Component#22 2
+    400024: Component#22 3
+    400026: Component#30
+    400028: Component#30 1
+    400030: Component#31
+    400032: Component#32
+    400034: Component#33
+    400036: Component#34
+    400038: Google Earth Terrain
+    400040: //RootNode
+    2300000: Component#11
+    2300002: Component#13
+    2300004: Component#13 1
+    2300006: Component#16
+    2300008: Component#16 1
+    2300010: Component#17
+    2300012: Component#17 1
+    2300014: Component#22
+    2300016: Component#22 1
+    2300018: Component#22 2
+    2300020: Component#22 3
+    2300022: Component#30
+    2300024: Component#30 1
+    2300026: Component#31
+    2300028: Component#32
+    2300030: Component#33
+    2300032: Component#34
+    2300034: Google Earth Terrain
+    3300000: Component#11
+    3300002: Component#13
+    3300004: Component#13 1
+    3300006: Component#16
+    3300008: Component#16 1
+    3300010: Component#17
+    3300012: Component#17 1
+    3300014: Component#22
+    3300016: Component#22 1
+    3300018: Component#22 2
+    3300020: Component#22 3
+    3300022: Component#30
+    3300024: Component#30 1
+    3300026: Component#31
+    3300028: Component#32
+    3300030: Component#33
+    3300032: Component#34
+    3300034: Google Earth Terrain
+    4300000: Mesh Google Earth Terrain
+    4300002: Mesh Component#17
+    4300004: Mesh Component#16
+    4300006: Mesh Component#22
+    4300008: Mesh Component#13
+    4300010: Mesh Component#32
+    4300012: Mesh Component#30
+    4300014: Mesh Component#33
+    4300016: Mesh Component#34
+    4300018: Mesh Component#31
+    4300020: Mesh Component#11
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
