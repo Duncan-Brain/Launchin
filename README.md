@@ -1,0 +1,2 @@
+# Launchin
+Launchin is a VR experience of the upcoming launch of the KhalifaSat & GOSAT-2 satellites on the H-IIA rocket from the Tanegashima Space Center in Japan. Launch the rocket with a click of a button.
