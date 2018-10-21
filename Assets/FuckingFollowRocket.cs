@@ -19,7 +19,7 @@ public class FuckingFollowRocket : MonoBehaviour {
     {
         if (!initialized) {
             initialized = true;
-            initialOffset = new Vector3(-28, 23, -14);
+            initialOffset = new Vector3(-10, 29, -14);
             initialRocketOffset = rocket.transform.position;
             //Debug.LogError(GetComponent<Camera>().transform.position);
         }
