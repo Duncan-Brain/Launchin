@@ -10,6 +10,10 @@ public class LaunchRequest : MonoBehaviour {
     }
     //the text box to bind to
     public TextMesh LaunchInfo;
+    public TextMesh LaunchCountry;
+    public TextMesh LaunchWindow;
+    public TextMesh LaunchDescription;
+    public TextMesh LaunchMission;
 
     IEnumerator GetText() {
        // get data for the next launch
@@ -29,7 +33,11 @@ public class LaunchRequest : MonoBehaviour {
             //parse some JSON
             JSONNode N = JSON.Parse(www.downloadHandler.text);
             //Debug.Log(N["launches"][0]["name"].ToString());
-            LaunchInfo.text = ("" + "Next Launch: " + N["launches"][0]["name"].ToString() );
+            LaunchInfo.text = ("" + "Next Launch: " + N["launches"][0]["missions"][0]["name"].ToString() );
+            LaunchCountry.text = ("" + N["launches"][0]["lsp"]["name"].ToString() );
+            LaunchWindow.text = ("" +  N["launches"][0]["windowstart"].ToString() );
+            LaunchDescription.text = (""+ N["launches"][0]["missions"][0]["description"].ToString() );
+            LaunchMission.text = ("" + "Rocket: " + N["launches"][0]["rocket"]["name"].ToString() );
 
         }
     }
